@@ -16,3 +16,6 @@ docker build -t secondspringbootredis .
 
 Rund secondsprintbootredis and link to redis : 
 docker run -it -p 80:80 --link redis:redis secondspringbootredis /bin/bash
+
+visit url: 
+http://HOSTIP:8080/hello
